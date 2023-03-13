@@ -916,7 +916,7 @@ video {
 .video-container {
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0px 0px 20px #ccc;
+  box-shadow: 0px 0px 100px blue;
 }
 
 .hover\:bg-gray-100:hover {
@@ -995,4 +995,8 @@ video {
   .lg\:text-center {
     text-align: center;
   }
+}
+
+.backdrop {
+    background-color: darkblue !important;
 }
